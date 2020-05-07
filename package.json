@@ -1,0 +1,57 @@
+{
+  "name": "nuxt-ampify",
+  "version": "1.0.0",
+  "description": "Convert Nuxt Application to AMP (Accelerated Mobile Pages)",
+  "repository": "https://github.com/YanDevDe/nuxt-ampify",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "YanDevDe <account@yandev.de>"
+    }
+  ],
+  "files": [
+    "lib"
+  ],
+  "main": "lib/module.js",
+  "scripts": {
+    "dev": "nuxt example --port 3001",
+    "lint": "eslint --ext .js,.vue .",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
+    "test": "yarn lint && jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@ampproject/toolbox-optimizer": "^2.3.0",
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@nuxtjs/eslint-config": "latest",
+    "@nuxtjs/module-test-utils": "latest",
+    "amp-toolbox-update-cache": "^1.2.0-alpha.2",
+    "amphtml-validator": "^1.0.30",
+    "babel-eslint": "latest",
+    "babel-jest": "latest",
+    "chalk": "^4.0.0",
+    "consola": "^2.11.3",
+    "csso": "^4.0.3",
+    "eslint": "latest",
+    "extract-css": "^1.5.5",
+    "fs-extra": "^9.0.0",
+    "husky": "latest",
+    "image-size": "^0.8.3",
+    "incstr": "^1.2.3",
+    "jest": "latest",
+    "jsdom": "^16.2.2",
+    "minify-css-string": "^1.0.0",
+    "nodemon": "^2.0.3",
+    "nuxt-edge": "latest",
+    "purgecss": "^2.1.2",
+    "standard-version": "latest",
+    "string-extract-class-names": "^5.9.22",
+    "uuid": "^8.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

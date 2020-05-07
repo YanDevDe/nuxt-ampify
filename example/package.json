@@ -1,0 +1,23 @@
+{
+  "name": "ampify-example",
+  "version": "1.0.0",
+  "description": "My amazing Nuxt.js project",
+  "author": "Yan Hülsebusch",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "nuxt": "^2.12.2",
+    "nuxt-buefy": "^0.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "nuxt-purgecss": "^1.0.0"
+  }
+}
