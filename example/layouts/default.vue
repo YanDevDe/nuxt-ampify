@@ -8,7 +8,7 @@
       <div class="navbar-brand">
         <a
           class="navbar-item"
-          href="/#test"
+          href="/"
         >
           <img
             src="~assets/buefy.png"
@@ -66,6 +66,16 @@ export default {
           title: 'Inspire',
           icon: 'lightbulb',
           to: { name: 'inspire' }
+        },
+        {
+          title: 'Mustache',
+          icon: 'alert-decagram',
+          to: { name: 'mustache' }
+        },
+        {
+          title: 'Playground',
+          icon: 'cellphone-link',
+          to: { name: 'playground' }
         }
       ]
     }
