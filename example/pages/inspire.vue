@@ -8,14 +8,5 @@
       Author:
       <a href="https://github.com/anteriovieira">Antério Vieira</a>
     </h3>
-    <form>
-      <label for="fname">First name:</label>
-      <br />
-      <input type="text" id="fname" name="fname" />
-      <br />
-      <label for="lname">Last name:</label>
-      <br />
-      <input type="text" id="lname" name="lname" />
-    </form>
   </section>
 </template>

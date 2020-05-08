@@ -4,7 +4,7 @@ module.exports = {
     title: process.env.npm_package_name || '',
     htmlAttrs: {
       lang: 'en',
-      "xml:lang": 'en'
+      'xml:lang': 'en'
     },
     meta: [
       { charset: 'utf-8' },
@@ -17,7 +17,7 @@ module.exports = {
   },
   loading: { color: '#fff' },
   buildModules: [
-    'nuxt-purgecss',
+    'nuxt-purgecss'
   ],
   purgeCSS: {
     enabled: true
@@ -28,7 +28,7 @@ module.exports = {
     { handler: require('../') }
   ],
   build: {
-    extractCSS: true,
+    extractCSS: true
   },
   SEOify: {
 
