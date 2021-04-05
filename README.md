@@ -1,3 +1,6 @@
+ARCHIVED - AMP is dying anyway. Sorry folks. Feel free to fork if needed!
+
+
 # ⚡ nuxt-ampify 📱💨
 
 [![npm version][npm-version-src]][npm-version-href]
